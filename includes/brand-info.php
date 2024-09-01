@@ -1,5 +1,5 @@
 <?php
-   $brandName= "";
+   $brandName= "Trademark Protectors";
    $brandShortCapsName= "";
    $brandShortName= "";
    $brandTFN= "";
