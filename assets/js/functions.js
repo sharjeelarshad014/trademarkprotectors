@@ -646,7 +646,7 @@ function showMoreless(target, targetbtn, show, find, htxt, stxt){
 }
 
 function smoothScrolling() {
-	var scrollSpeed = 600; // Higher number for slower scroll
+	var scrollSpeed = 900; // Higher number for slower scroll
     var scrollDuration = 1000; // Duration for the scroll animation
 
     // Mouse wheel smooth scroll

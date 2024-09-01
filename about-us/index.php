@@ -295,6 +295,35 @@
 		</div>
 	</section>
 
+	<section class="stripe cta-sec" style="background-image: url(/trademarkprotectors/assets/img/bg/bg-img2.jpg);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="top-heading">
+						<h3 class="h3 cl-white">We Are Your Expert Trademark Registration Partners, <span class="cl-iPrimary">Start Now!</span></h3>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="top-heading">
+						<p class="cl-iGray4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's into standard..</p>
+						<div class="d-lg-flex align-items-center">
+							<div class="btn-wrap mr-3">
+								<a href="javascript:;" class="btn btn-primary">GET STARTED NOW</a>
+							</div>
+							<div class="contact-list">
+							<ul>
+								<li class="d-sm-block d-none">
+									<a href="javascript:;" class="cl-white"><i class="ic-2 cl-iPrimary"></i> +966-11465-1919</a>
+								</li>
+							</ul>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/footer.php"); ?>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/scripts.php"); ?>
 </body>

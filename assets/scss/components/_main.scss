@@ -223,6 +223,9 @@
                 margin-bottom: 10px;
             }
         }
+        @media (max-width: 575px) {
+            padding: 30px 30px;
+        }
     }
 }
 
