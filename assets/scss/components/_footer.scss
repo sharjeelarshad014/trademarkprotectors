@@ -1,0 +1,135 @@
+.footer{
+    .footer-content {
+        padding-top: 60px;
+        position: relative;
+        padding-bottom: 50px;
+
+        @media(max-width:991px) {
+            padding-top: 50px;
+        }
+    }
+
+    .h5 {
+        margin-bottom: 10px;
+        padding-top: 15px;
+    }
+}
+
+.logo-widget {
+    a {
+        display: inline-block;
+    }
+
+    img {
+        height: 100px;
+
+        @media (max-width: 991px) {
+            height: auto;
+        }
+    }
+
+    p {
+        @include fontCalcSize(16, 14);
+        margin: 15px 0 0 0;
+    }
+}
+
+.link-widget {
+    .h5 {
+        @include fontCalcSize(18, 16);
+        color: $iBlack;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 25px 0 20px 0;
+        padding-top: 0;
+    }
+
+    ul {
+        li {
+            margin-bottom: 20px;
+
+            a {
+                @include fontCalcSize(18, 14);
+                color: $iGray5;
+                display: inline-block;
+                font-weight: 400;
+                line-height: normal;
+
+                &.is--active,
+                &:hover {
+                    text-decoration: underline !important;
+                }
+            }
+
+            &.is--active {
+                a {
+                    text-decoration: underline !important;
+                }
+            }
+        }
+    }
+}
+
+.sec-copyright {
+    padding: 16px 0;
+    background-color: $iGray6;
+
+    p {
+        @include fontCalcSize(14, 12);
+        color: $iGray5;
+        margin: 0;
+    }
+
+    .copyright-links {
+        margin-left: auto;
+    }
+
+    @media(max-width: 767px) {
+        .fflex {
+            flex-direction: column;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .copyright-links {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    }
+}
+
+.copyright-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    li {
+        padding-left: 12px;
+        margin-left: 12px;
+        position: relative;
+        border-left: 1px solid $black;
+
+        a {
+            @include fontCalcSize(14, 12);
+            color: $iGray5;
+            display: block;
+            line-height: 14px;
+
+            &:hover {
+                text-decoration: underline !important;
+            }
+        }
+
+        &.is--active{
+            text-decoration: underline !important;
+        }
+
+        &:first-child {
+            padding-left: 0;
+            margin-left: 0;
+            border-left: 0;
+        }
+    }
+}
