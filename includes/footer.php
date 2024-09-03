@@ -2,7 +2,7 @@
 	<div class="footer-content">
 			<div class="container">
 				<div class="row">
-					<div class="col-6 col-md-4">
+					<div class="col-md-4">
 						<div class="logo-widget">
 							<a href="/trademarkprotectors/">
 								<img src="/trademarkprotectors/assets/img/brand/logo-black.png" alt="">
@@ -23,7 +23,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 col-md-2">
+					<div class="col-md-2">
 						<div class="link-widget">
 							<h5 class="h5">Useful Links</h5>
 							<ul>
@@ -34,7 +34,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-6 col-md-3">
+					<div class="col-md-3">
 						<div class="link-widget">
 							<h5 class="h5">Our Expertise</h5>
 							<ul>
@@ -45,7 +45,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-6 col-md-3">
+					<div class="col-md-3">
 						<div class="link-widget">
 							<h5 class="h5">Quick Links</h5>
 							<ul>

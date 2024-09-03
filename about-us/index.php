@@ -114,83 +114,83 @@
 		</div>
 	</section>
 
-<section class="stripe">
-	<div class="text-style sty1">
-		<span class="bg-text">WHY US</span>
-	</div>
-	<div class="container">
-		<div class="row mb-5">
-			<div class="col-lg-6">
-				<div class="top-heading">
-					<h3 class="h3">Experienced Trademark <br> Registration <span class="cl-iPrimary">Partners!</span></h3>
+	<section class="stripe">
+		<div class="text-style sty1">
+			<span class="bg-text">WHY US</span>
+		</div>
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-6">
+					<div class="top-heading">
+						<h3 class="h3">Experienced Trademark <br> Registration <span class="cl-iPrimary">Partners!</span></h3>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="top-heading">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not.</p>
+					</div>
 				</div>
 			</div>
-			<div class="col-lg-6">
-				<div class="top-heading">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not.</p>
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="box-wrap sty1">
+						<div class="redirect-ic">
+							<a href="javascript:;"><i class="ic-8"></i></a>
+						</div>
+						<div class="box-ic">
+							<i class="ic-7"></i>
+						</div>
+						<div class="box-text">
+							<h5 class="h5">Expert Legal Guidance</h5>
+							<p>PPF is designed to keep your car in immaculate condition no matter what, protecting you against sand damage, stone chips.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="box-wrap sty1">
+						<div class="redirect-ic">
+							<a href="javascript:;"><i class="ic-8"></i></a>
+						</div>
+						<div class="box-ic">
+							<i class="ic-7"></i>
+						</div>
+						<div class="box-text">
+							<h5 class="h5">10+ Years of Experience</h5>
+							<p>PPF is designed to keep your car in immaculate condition no matter what, protecting you against sand damage, stone chips.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="box-wrap sty1">
+						<div class="redirect-ic">
+							<a href="javascript:;"><i class="ic-8"></i></a>
+						</div>
+						<div class="box-ic">
+							<i class="ic-7"></i>
+						</div>
+						<div class="box-text">
+							<h5 class="h5">Expertise in Legal Laws</h5>
+							<p>PPF is designed to keep your car in immaculate condition no matter what, protecting you against sand damage, stone chips.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="box-wrap sty1">
+						<div class="redirect-ic">
+							<a href="javascript:;"><i class="ic-8"></i></a>
+						</div>
+						<div class="box-ic">
+							<i class="ic-7"></i>
+						</div>
+						<div class="box-text">
+							<h5 class="h5">We Flaunt High Approval Rate</h5>
+							<p>PPF is designed to keep your car in immaculate condition no matter what, protecting you against sand damage, stone chips.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-3 col-md-6">
-				<div class="box-wrap sty1">
-					<div class="redirect-ic">
-						<a href="javascript:;"><i class="ic-8"></i></a>
-					</div>
-					<div class="box-ic">
-						<i class="ic-7"></i>
-					</div>
-					<div class="box-text">
-						<h5 class="h5">Expert Legal Guidance</h5>
-						<p>PPF is designed to keep your car in immaculate condition no matter what, protecting you against sand damage, stone chips.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="box-wrap sty1">
-					<div class="redirect-ic">
-						<a href="javascript:;"><i class="ic-8"></i></a>
-					</div>
-					<div class="box-ic">
-						<i class="ic-7"></i>
-					</div>
-					<div class="box-text">
-						<h5 class="h5">10+ Years of Experience</h5>
-						<p>PPF is designed to keep your car in immaculate condition no matter what, protecting you against sand damage, stone chips.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="box-wrap sty1">
-					<div class="redirect-ic">
-						<a href="javascript:;"><i class="ic-8"></i></a>
-					</div>
-					<div class="box-ic">
-						<i class="ic-7"></i>
-					</div>
-					<div class="box-text">
-						<h5 class="h5">Expertise in Legal Laws</h5>
-						<p>PPF is designed to keep your car in immaculate condition no matter what, protecting you against sand damage, stone chips.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="box-wrap sty1">
-					<div class="redirect-ic">
-						<a href="javascript:;"><i class="ic-8"></i></a>
-					</div>
-					<div class="box-ic">
-						<i class="ic-7"></i>
-					</div>
-					<div class="box-text">
-						<h5 class="h5">We Flaunt High Approval Rate</h5>
-						<p>PPF is designed to keep your car in immaculate condition no matter what, protecting you against sand damage, stone chips.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+	</section>
 
 	<section class="stripe-1" style="background-image: url(/trademarkprotectors/assets/img/bg/bg-img2.jpg)">
 		<div class="container">
@@ -226,7 +226,7 @@
 						</div>
 						<div class="contact-list">
 							<ul>
-								<li class="d-sm-block d-none">
+								<li class="">
 									<a href="javascript:;"><i class="ic-2"></i> +966-11465-1919</a>
 								</li>
 							</ul>
@@ -312,7 +312,7 @@
 							</div>
 							<div class="contact-list">
 							<ul>
-								<li class="d-sm-block d-none">
+								<li class="">
 									<a href="javascript:;" class="cl-white"><i class="ic-2 cl-iPrimary"></i> +966-11465-1919</a>
 								</li>
 							</ul>

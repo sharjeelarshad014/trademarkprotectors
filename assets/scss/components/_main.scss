@@ -227,6 +227,76 @@
             padding: 30px 30px;
         }
     }
+    &.sty4{
+        padding: 50px 40px;
+        border-radius: 20px;
+        background-color: $iGray8;
+        height: 100%;
+        transition: all .35s ease;
+        .box-ic{
+            margin-bottom: 20px;
+            i{
+                @include fontCalcSize(55, 48);
+                background: -webkit-linear-gradient(140deg, #c78d22 20%, #5EBF9A 120%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        .box-text{
+            .h5 {
+                margin: 0;
+                padding-bottom: 45px;
+                margin-bottom: 25px;
+                position: relative;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    width: 70%;
+                    height: 2px;
+                    background-color: #000;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+                @media (max-width: 991px) {
+                    padding-bottom: 25px;
+                    margin-bottom: 5px;
+                }
+            }
+            p{
+                margin: 0;
+            }
+        }
+
+        &:hover{
+            background-image: $iGradient2;
+            .box-ic{
+                i{
+                    -webkit-text-fill-color: #fff;
+                    color: $iGray8;
+                }
+            }
+            .box-text{
+                .h5 {
+                    color: $iGray8;
+                    &:before{
+                        background-color: $iGray8;
+                    }
+                }
+                p{
+                    color: $iGray8;
+                }
+            }
+            .redirect-ic{
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 1199px) {
+            padding: 20px 20px;
+        }
+    }
 }
 
 .list-style{
@@ -545,6 +615,7 @@
         }
     }
     @media (max-width: 991px) {
+        text-align: center;
         .btn-secondary{
             margin-top: 10px;
         }
@@ -620,6 +691,84 @@ br{
         .section-bg{
             margin-top: -50px;
             padding-bottom: 30px;
+        }
+    }
+}
+
+.accordian-wrap{
+    margin-bottom: 20px;
+    .accor-head{
+        background-color: $Green2;
+        border: 1px solid $iGray9;
+        padding: 20px 80px;
+        display: flex;
+        align-items: center;
+        border-radius: 12px;
+        transition: all .35s ease;
+        cursor: pointer;
+        .accor-ic{
+            margin-right: 20px;
+            i{
+                @include fontCalcSize(20, 16);
+                color: $iSecondary;
+                display: block;
+                transition: all .35s ease;
+            }
+        }
+        .h4{
+            @include fontCalcSize(18, 12);
+            color: $black;
+            font-weight: 600;
+            margin: 0;
+            transition: all .35s ease;
+        }
+    }
+    .accor-content{
+        padding: 0 90px;
+        height: 0;
+        overflow: hidden;
+        transition: all .35s ease;
+        p{
+            @include fontCalcSize(18, 12);
+            font-weight: 300;
+            color: $iGray;
+            margin: 0;
+        }
+    }
+    &.open-acordian{
+        .accor-head{
+            background-color: $iSecondary;
+            .accor-ic{
+                i{
+                    color: $white;
+                }
+            }
+            .h4{
+                color: $white;
+            }
+        }
+        .accor-content{
+            padding: 20px 90px;
+            height: auto;
+            @media (max-width: 991px) {
+                padding: 20px 30px;
+            }
+            @media (max-width: 575px) {
+                padding: 10px 30px;
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        .accor-head{
+            padding: 20px 30px;
+        }
+        .accor-content{
+            padding: 0 30px;
+        }
+    }
+    @media (max-width: 575px) {
+        .accor-head{
+            padding: 10px 30px;
         }
     }
 }

@@ -15,7 +15,16 @@
 		}
 	}
 </style>
-<div class="loaderscreen js-loaderscreen"></div>
+<div class="main-loader" id="loader">
+	<div class="loader-text">Hello</div>
+	<div class="loader-text">Salam</div>
+	<div class="loader-text">Bonjoar</div>
+	<div class="loader-text">Namasty</div>
+	<div class="loader-back"></div>
+	<div class="loader-back"></div>
+	<div class="loader-back"></div>
+	<div class="loader-back"></div>
+</div>
 <header class="header js-fixed">
 	<div class="container">
 		<div class="fflex align-items-center">
@@ -23,6 +32,9 @@
 				<img src="/trademarkprotectors/assets/img/brand/logo.png" alt="" class="js-tosvg">
 			</a>
 			<div class="navigation">
+				<a href="/trademarkprotectors/" class="logo d-lg-none d-block">
+					<img src="/trademarkprotectors/assets/img/brand/logo.png" alt="" class="js-tosvg">
+				</a>
 				<ul>
 					<li>
 						<a href="/trademarkprotectors/"><i class="ic-1"></i> Home</a>
