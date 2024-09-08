@@ -3,21 +3,21 @@
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/brand-info.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/brand-info.php"); ?>
 	<title>Faq's | <?php echo "$brandName";?></title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/style.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/style.php"); ?>
 
 </head>
 <body>
 	<!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
-	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/header.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/header.php"); ?>
 
-	<section class="banner inner" style="background-image: url(/trademarkprotectors/assets/img/bg/about-banner.jpg);">
+	<section class="banner inner" style="background-image: url(/staging/assets/img/bg/about-banner.jpg);">
 		<div class="bg-style sty1"></div>
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
@@ -87,10 +87,9 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
-					<div class="box-wrap sty1">
-						<div class="redirect-ic">
-							<a href="javascript:;"><i class="ic-8"></i></a>
-						</div>
+					<div class="box-wrap sty1 js-tab-link is--active" data-tab-id="faqTab1" data-tab-name="tabbing-family">
+						<a href="javascript:;" class="post-link"></a>
+						<div class="arrow-pointer"></div>
 						<div class="box-ic">
 							<i class="ic-7"></i>
 						</div>
@@ -101,10 +100,9 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="box-wrap sty1">
-						<div class="redirect-ic">
-							<a href="javascript:;"><i class="ic-8"></i></a>
-						</div>
+					<div class="box-wrap sty1 js-tab-link" data-tab-id="faqTab2" data-tab-name="tabbing-family">
+						<a href="javascript:;" class="post-link"></a>
+						<div class="arrow-pointer"></div>
 						<div class="box-ic">
 							<i class="ic-7"></i>
 						</div>
@@ -115,10 +113,9 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="box-wrap sty1">
-						<div class="redirect-ic">
-							<a href="javascript:;"><i class="ic-8"></i></a>
-						</div>
+					<div class="box-wrap sty1 js-tab-link" data-tab-id="faqTab3" data-tab-name="tabbing-family">
+						<a href="javascript:;" class="post-link"></a>
+						<div class="arrow-pointer"></div>
 						<div class="box-ic">
 							<i class="ic-7"></i>
 						</div>
@@ -129,10 +126,9 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="box-wrap sty1">
-						<div class="redirect-ic">
-							<a href="javascript:;"><i class="ic-8"></i></a>
-						</div>
+					<div class="box-wrap sty1 js-tab-link" data-tab-id="faqTab4" data-tab-name="tabbing-family">
+						<a href="javascript:;" class="post-link"></a>
+						<div class="arrow-pointer"></div>
 						<div class="box-ic">
 							<i class="ic-7"></i>
 						</div>
@@ -146,57 +142,92 @@
 		</div>
 	</section>
 
-	<section class="stripe faq-sec">
+	<section class="stripe faq-sec pt-0">
 		<div class="container">
-			<div class="accordian-wrap accor-row open-acordian">
-				<div class="accor-head js-accor-link is-active" data-accor-id="faq1" data-accor-name="faq-family">
-					<div class="accor-ic"><i class="ic-6"></i></div>
-					<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+			<div class="tab-content tab-faqTab1 is--active" data-tab-name="tabbing-family">
+				<div class="accordian-wrap accor-row open-acordian">
+					<div class="accor-head js-accor-link is-active" data-accor-id="faq1" data-accor-name="faq-family">
+						<div class="accor-ic"><i class="ic-6"></i></div>
+						<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+					</div>
+					<div class="accor-faq1 accor-content" data-accor-name="faq-family">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
 				</div>
-				<div class="accor-faq1 accor-content" data-accor-name="faq-family">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				<div class="accordian-wrap accor-row">
+					<div class="accor-head js-accor-link" data-accor-id="faq2" data-accor-name="faq-family">
+						<div class="accor-ic"><i class="ic-6"></i></div>
+						<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+					</div>
+					<div class="accor-faq2 accor-content" data-accor-name="faq-family">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
+				</div>
+				<div class="accordian-wrap accor-row">
+					<div class="accor-head js-accor-link" data-accor-id="faq3" data-accor-name="faq-family">
+						<div class="accor-ic"><i class="ic-6"></i></div>
+						<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+					</div>
+					<div class="accor-faq3 accor-content" data-accor-name="faq-family">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
+				</div>
+				<div class="accordian-wrap accor-row">
+					<div class="accor-head js-accor-link" data-accor-id="faq4" data-accor-name="faq-family">
+						<div class="accor-ic"><i class="ic-6"></i></div>
+						<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+					</div>
+					<div class="accor-faq4 accor-content" data-accor-name="faq-family">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
+				</div>
+				<div class="accordian-wrap accor-row">
+					<div class="accor-head js-accor-link" data-accor-id="faq5" data-accor-name="faq-family">
+						<div class="accor-ic"><i class="ic-6"></i></div>
+						<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+					</div>
+					<div class="accor-faq5 accor-content" data-accor-name="faq-family">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
 				</div>
 			</div>
-			<div class="accordian-wrap accor-row">
-				<div class="accor-head js-accor-link" data-accor-id="faq1" data-accor-name="faq-family">
-					<div class="accor-ic"><i class="ic-6"></i></div>
-					<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
-				</div>
-				<div class="accor-faq1 accor-content" data-accor-name="faq-family">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-				</div>
-			</div>
-			<div class="accordian-wrap accor-row">
-				<div class="accor-head js-accor-link" data-accor-id="faq1" data-accor-name="faq-family">
-					<div class="accor-ic"><i class="ic-6"></i></div>
-					<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
-				</div>
-				<div class="accor-faq1 accor-content" data-accor-name="faq-family">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<div class="tab-content tab-faqTab2" data-tab-name="tabbing-family">
+				<div class="accordian-wrap accor-row open-acordian">
+					<div class="accor-head js-accor-link is-active" data-accor-id="faq6" data-accor-name="faq-family">
+						<div class="accor-ic"><i class="ic-6"></i></div>
+						<div class="accor-text"><h4 class="h4">Tab 2</h4></div>
+					</div>
+					<div class="accor-faq1 accor-content" data-accor-name="faq-family">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
 				</div>
 			</div>
-			<div class="accordian-wrap accor-row">
-				<div class="accor-head js-accor-link" data-accor-id="faq1" data-accor-name="faq-family">
-					<div class="accor-ic"><i class="ic-6"></i></div>
-					<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
-				</div>
-				<div class="accor-faq1 accor-content" data-accor-name="faq-family">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<div class="tab-content tab-faqTab3" data-tab-name="tabbing-family">
+				<div class="accordian-wrap accor-row open-acordian">
+					<div class="accor-head js-accor-link is-active" data-accor-id="faq7" data-accor-name="faq-family">
+						<div class="accor-ic"><i class="ic-6"></i></div>
+						<div class="accor-text"><h4 class="h4">Tab 3</h4></div>
+					</div>
+					<div class="accor-faq1 accor-content" data-accor-name="faq-family">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
 				</div>
 			</div>
-			<div class="accordian-wrap accor-row">
-				<div class="accor-head js-accor-link" data-accor-id="faq1" data-accor-name="faq-family">
-					<div class="accor-ic"><i class="ic-6"></i></div>
-					<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
-				</div>
-				<div class="accor-faq1 accor-content" data-accor-name="faq-family">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<div class="tab-content tab-faqTab4" data-tab-name="tabbing-family">
+				<div class="accordian-wrap accor-row open-acordian">
+					<div class="accor-head js-accor-link is-active" data-accor-id="faq8" data-accor-name="faq-family">
+						<div class="accor-ic"><i class="ic-6"></i></div>
+						<div class="accor-text"><h4 class="h4">Tab 4</h4></div>
+					</div>
+					<div class="accor-faq1 accor-content" data-accor-name="faq-family">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="stripe cta-sec" style="background-image: url(/trademarkprotectors/assets/img/bg/bg-img2.jpg);">
+	<section class="stripe cta-sec" style="background-image: url(/staging/assets/img/bg/bg-img2.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -225,7 +256,7 @@
 		</div>
 	</section>
 
-	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/footer.php"); ?>
-	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/scripts.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/footer.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/scripts.php"); ?>
 </body>
 </html>

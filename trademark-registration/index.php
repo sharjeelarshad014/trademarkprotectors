@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/brand-info.php"); ?>
-	<title>File A Trademark Now - Trademark Protectors | <?php echo "$brandName";?></title>
+	<title>Home | <?php echo "$brandName";?></title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -17,26 +17,21 @@
     <![endif]-->
 	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/header.php"); ?>
 
-	<section class="banner bg-detail" style="background-image: url(/staging/assets/img/bg/main-banner.jpg);">
-		<div class="bg-style sty1" data-aos="slide-right" data-aos-duration="700" data-aos-delay="700">
-			<div class="avatar-img" data-aos="fade-up" data-aos-delay="1500">
-				<img src="/staging/assets/img/bg/avatar-banner.png" alt="">
-			</div>
-		</div>
+	<section class="banner inner" style="background-image: url(/staging/assets/img/bg/about-banner.jpg);">
+		<div class="bg-style sty3"></div>
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-7">
 					<div class="banner-content">
 						<div class="banner-title">
-							<h2 class="h2">Trademark YOUR IP WITH</h2>
-							<h1 class="h1">PROTECTORS.</h1>
+							<h3 class="h3">Trademark Your Brand Name, Slogan, and Logo in <span class="cl-iPrimary">$49!</span></h3>
 						</div>
 						<div class="banner-list sty1">
-							<p>Leading provider of trademark protection services, with experienced attorneys who have successfully protected thousands of trademarks.</p>
 							<ul>
 								<li><i class="ic-6"></i>Expert trademark attorneys navigate the process</li>
 								<li><i class="ic-6"></i>Official USPTO filing firm with 100% success rate</li>
 								<li><i class="ic-6"></i>Same day trademark application filing available</li>
+								<li><i class="ic-6"></i>Official USPTO filing firm with 100% success rate</li>
 							</ul>
 						</div>
 						<div class="d-lg-flex align-items-center">
@@ -49,74 +44,106 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="banner-bottom">
-				<p><i><img src="/staging/assets/img/icons/logo-ic.png" alt=""></i> 10124 Trademarks registered by Trademark Protectors. Start as low as <span class="cl-iPrimary">$49</span>, View <span class="cl-iPrimary">Trademark Registration Packages</span></p>
-				<ul class="list-wrap js-slide3" data-item-desktop="6" data-item-ipad-pro="4" data-item-tablet="2" data-item-mobile="2">
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo1.png" alt="">
+				<div class="col-lg-5">
+					<div class="form-wrap">
+						<div class="form-head">
+							<h4 class="h4">Register Your <span class="cl-iPrimary">Trademark</span></h4>
+							<p>Leading provider of trademark protection</p>
 						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo2.png" alt="">
-						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo3.png" alt="">
-						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo4.png" alt="">
-						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo5.png" alt="">
-						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo3.png" alt="">
-						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo1.png" alt="">
-						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo2.png" alt="">
-						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo3.png" alt="">
-						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo4.png" alt="">
-						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo5.png" alt="">
-						</div>
-					</li>
-					<li>
-						<div class="img-wrap">
-							<img src="/staging/assets/img/mix/logo3.png" alt="">
-						</div>
-					</li>
-				</ul>
+						<form action="">
+							<div class="form-body">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Enter Your Name">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Enter Your Email">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Enter Your Phone">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="What are your trying to Protect">
+								</div>
+								<div class="btn-wrap">
+									<button type="button" class="btn btn-form">GET YOUR TRADEMARK REGISTERED</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
+
+	<div class="banner-bottom sty1">
+		<div class="container">
+			<div class="text-center">
+				<p><i><img src="/staging/assets/img/icons/logo-ic.png" alt=""></i> 10124 Trademarks registered by Trademark Protectors. Start as low as <span class="cl-iPrimary">$49</span>, View <span class="cl-iPrimary">Trademark Registration Packages</span></p>
+			</div>
+			<ul class="list-wrap js-slide3" data-item-desktop="6" data-item-ipad-pro="4" data-item-tablet="2" data-item-mobile="2">
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo1-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo2-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo3-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo1-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo2-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo3-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo1-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo2-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo3-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo1-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo2-colored.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="img-wrap">
+						<img src="/staging/assets/img/mix/logo3-colored.png" alt="">
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
 
 	<section class="stripe">
 		<div class="text-style sty1">
@@ -130,7 +157,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="top-heading" data-aos="fade-right" data-aos-duration="500">
+					<div class="top-heading" data-aos="fade-right" data-aos-duration="500"  data-aos-delay="500">
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not.</p>
 					</div>
 				</div>
@@ -151,7 +178,7 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="box-wrap sty1 js-hovereffect is--active" data-aos="fade-right" data-aos-duration="500" data-aos-delay="600">
+					<div class="box-wrap sty1 js-hovereffect is--active" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
 						<div class="redirect-ic">
 							<a href="javascript:;"><i class="ic-8"></i></a>
 						</div>
@@ -165,7 +192,7 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="box-wrap sty1 js-hovereffect" data-aos="fade-right" data-aos-duration="500" data-aos-delay="700">
+					<div class="box-wrap sty1 js-hovereffect" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="700">
 						<div class="redirect-ic">
 							<a href="javascript:;"><i class="ic-8"></i></a>
 						</div>
@@ -179,7 +206,7 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="box-wrap sty1 js-hovereffect" data-aos="fade-right" data-aos-duration="500" data-aos-delay="800">
+					<div class="box-wrap sty1 js-hovereffect" data-aos="fade-right" data-aos-duration="1800" data-aos-delay="800">
 						<div class="redirect-ic">
 							<a href="javascript:;"><i class="ic-8"></i></a>
 						</div>
@@ -215,7 +242,7 @@
 	</section>
 
 	<section class="stripe slider-sec section1 carousel-sec">
-		<div class="bg-style sty2" data-aos="slide-left" data-aos-duration="500"  data-aos-delay="500">
+		<div class="bg-style sty2" data-aos="slide-left" data-aos-duration="500"  data-aos-delay="900">
 			<div class="text-style sty3">
 				<span class="md-text"><img src="/staging/assets/img/mix/trademark-registration-text.png" alt=""></span>
 			</div>
@@ -226,7 +253,7 @@
 				<div>
 					<div class="row justify-content-end">
 						<div class="col-lg-6 align-self-center">
-							<div class="content-wrap" data-aos="fade-left" data-aos-duration="500"  data-aos-delay="600">
+							<div class="content-wrap" data-aos="fade-left" data-aos-duration="500"  data-aos-delay="1000">
 								<h5 class="h5">Trademark Registration</h5>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not.</p>
 								<div class="d-lg-flex align-items-center">
@@ -240,7 +267,7 @@
 							</div>
 						</div>
 						<div class="col-lg-5">
-							<div class="slide-img" data-aos="fade-left" data-aos-duration="500"  data-aos-delay="700">
+							<div class="slide-img" data-aos="fade-left" data-aos-duration="500"  data-aos-delay="1100">
 								<img src="/staging/assets/img/mix/slide1.png" alt="">
 							</div>
 						</div>
@@ -285,7 +312,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="top-heading" data-aos="fade-left" data-aos-duration="500"  data-aos-delay="600">
+					<div class="top-heading" data-aos="fade-left" data-aos-duration="500"  data-aos-delay="900">
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not.</p>
 					</div>
 				</div>
@@ -301,7 +328,7 @@
 							<p>PPF is designed to keep your car in immaculate condition no matter what, protecting you against sand damage, stone chips.</p>
 						</div>
 					</li>
-					<li data-aos="fade-right" data-aos-duration="500"  data-aos-delay="700">
+					<li data-aos="fade-right" data-aos-duration="500"  data-aos-delay="1000">
 						<div class="box-wrap sty2">
 							<div class="numb-wrap">
 								<div class="numb">02</div>
@@ -310,7 +337,7 @@
 							<p>PPF is designed to keep your car in immaculate condition no matter what, protecting you against sand damage, stone chips.</p>
 						</div>
 					</li>
-					<li data-aos="fade-right" data-aos-duration="500"  data-aos-delay="800">
+					<li data-aos="fade-right" data-aos-duration="500"  data-aos-delay="1100">
 						<div class="box-wrap sty2">
 							<div class="numb-wrap">
 								<div class="numb">03</div>
@@ -337,7 +364,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">
-					<div class="package-wrap mt-0" data-aos="fade-right" data-aos-duration="500"  data-aos-delay="600">
+					<div class="package-wrap mt-0" data-aos="fade-right" data-aos-duration="500"  data-aos-delay="900">
 						<div class="pkg-head">
 							<h4 class="h4">Basic</h4>
 							<p>Lorem ipsum dolorsit amret, <br> consectetur adipiscing</p>
@@ -362,7 +389,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4">
-					<div class="package-wrap best-seller" data-aos="fade-right" data-aos-duration="500"  data-aos-delay="700">
+					<div class="package-wrap best-seller" data-aos="fade-right" data-aos-duration="500"  data-aos-delay="1000">
 						<div class="custom-badge">
 							<img src="/staging/assets/img/icons/best-seller.png" alt="">
 						</div>
@@ -390,7 +417,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4">
-					<div class="package-wrap" data-aos="fade-right" data-aos-duration="500"  data-aos-delay="800">
+					<div class="package-wrap" data-aos="fade-right" data-aos-duration="500"  data-aos-delay="1100">
 						<div class="pkg-head">
 							<h4 class="h4">Platinum</h4>
 							<p>Lorem ipsum dolorsit amret, <br> consectetur adipiscing</p>
@@ -427,7 +454,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="top-heading" data-aos="fade-right" data-aos-duration="500"  data-aos-delay="600">
+					<div class="top-heading" data-aos="fade-right" data-aos-duration="500"  data-aos-delay="900">
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not.</p>
 					</div>
 				</div>
@@ -480,13 +507,104 @@
 		<div class="container">
 			<div class="top-heading text-center">
 				<h3 class="h3 cl-white" data-aos="fade-up" data-aos-duration="800">We're not just a business <i><img src="/staging/assets/img/mix/cta-img1.png" alt=""></i><br><i><img src="/staging/assets/img/mix/cta-img2.png" alt=""></i> of the <span class="cl-iPrimary">community</span>.</h3>
-				<p class="cl-iGray4" data-aos="fade-up" data-aos-duration="500"  data-aos-delay="600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not.</p>
+				<p class="cl-iGray4" data-aos="fade-up" data-aos-duration="500"  data-aos-delay="1000">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not.</p>
 				<div class="d-lg-flex align-items-center justify-content-center">
-					<div class="btn-wrap mr-3" data-aos="fade-up" data-aos-duration="500"  data-aos-delay="700">
+					<div class="btn-wrap mr-3" data-aos="fade-up" data-aos-duration="500"  data-aos-delay="1100">
 						<a href="javascript:;" class="btn btn-primary">GET STARTED NOW</a>
 					</div>
-					<div class="btn-wrap" data-aos="fade-up" data-aos-duration="500"  data-aos-delay="800">
+					<div class="btn-wrap" data-aos="fade-up" data-aos-duration="500"  data-aos-delay="1200">
 						<a href="javascript:;" class="btn btn-secondary">CHAT NOW FOR INSTANT SUPPORT</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="stripe faq-sec">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-6">
+					<div class="top-heading aos-init aos-animate" data-aos="fade-right" data-aos-duration="500">
+						<h3 class="h3">Experienced Trademark <br> Registration <span class="cl-iPrimary">Partners!</span></h3>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="top-heading aos-init aos-animate" data-aos="fade-right" data-aos-duration="500" data-aos-delay="900">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not.</p>
+					</div>
+				</div>
+			</div>
+			<div class="accordian-wrap accor-row open-acordian">
+				<div class="accor-head js-accor-link is-active" data-accor-id="faq1" data-accor-name="faq-family">
+					<div class="accor-ic"><i class="ic-6"></i></div>
+					<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+				</div>
+				<div class="accor-faq1 accor-content" data-accor-name="faq-family">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+			</div>
+			<div class="accordian-wrap accor-row">
+				<div class="accor-head js-accor-link" data-accor-id="faq1" data-accor-name="faq-family">
+					<div class="accor-ic"><i class="ic-6"></i></div>
+					<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+				</div>
+				<div class="accor-faq1 accor-content" data-accor-name="faq-family">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+			</div>
+			<div class="accordian-wrap accor-row">
+				<div class="accor-head js-accor-link" data-accor-id="faq1" data-accor-name="faq-family">
+					<div class="accor-ic"><i class="ic-6"></i></div>
+					<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+				</div>
+				<div class="accor-faq1 accor-content" data-accor-name="faq-family">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+			</div>
+			<div class="accordian-wrap accor-row">
+				<div class="accor-head js-accor-link" data-accor-id="faq1" data-accor-name="faq-family">
+					<div class="accor-ic"><i class="ic-6"></i></div>
+					<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+				</div>
+				<div class="accor-faq1 accor-content" data-accor-name="faq-family">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+			</div>
+			<div class="accordian-wrap accor-row">
+				<div class="accor-head js-accor-link" data-accor-id="faq1" data-accor-name="faq-family">
+					<div class="accor-ic"><i class="ic-6"></i></div>
+					<div class="accor-text"><h4 class="h4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip?</h4></div>
+				</div>
+				<div class="accor-faq1 accor-content" data-accor-name="faq-family">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="stripe cta-sec" style="background-image: url(/staging/assets/img/bg/bg-img2.jpg);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="top-heading">
+						<h3 class="h3 cl-white">We Are Your Expert Trademark Registration Partners, <span class="cl-iPrimary">Start Now!</span></h3>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="top-heading">
+						<p class="cl-iGray4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's into standard..</p>
+						<div class="d-lg-flex align-items-center">
+							<div class="btn-wrap mr-3">
+								<a href="javascript:;" class="btn btn-primary">GET STARTED NOW</a>
+							</div>
+							<div class="contact-list">
+							<ul>
+								<li class="">
+									<a href="javascript:;" class="cl-white"><i class="ic-2 cl-iPrimary"></i> +966-11465-1919</a>
+								</li>
+							</ul>
+						</div>
+						</div>
 					</div>
 				</div>
 			</div>

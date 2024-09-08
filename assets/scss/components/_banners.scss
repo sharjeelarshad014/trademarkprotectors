@@ -13,6 +13,14 @@
 
         .banner-content{
             padding-top: 0;
+            .banner-title{
+                .h3{
+                    @include fontCalcSize(45, 20);
+                    color: $white;
+                    text-transform: uppercase;
+                    line-height: 1.6;
+                }
+            }
         }
         .bg-style{
             &.sty1 {
@@ -21,6 +29,23 @@
                 width: 52%;
                 border-top-right-radius: 120px;
                 border-bottom-right-radius: 120px;
+            }
+            &.sty3 {
+                bottom: 90px;
+                height: 340px;
+                width: 52%;
+                border-top-right-radius: 70px;
+                border-bottom-right-radius: 70px;
+                @media (max-width: 991px) {
+                    top: 20.3%;
+                    bottom: inherit;
+                    height: 30%;
+                    width: 85%;
+                }
+                @media (max-width: 575px) {
+                    top: 21.1%;
+                    width: 95%;
+                }
             }
         }
     }
@@ -93,7 +118,7 @@
         }
         .banner-list {
             &.sty1{
-                padding-bottom: 0px;
+                padding-bottom: 10px;
             }
         }
         .banner-bottom{
@@ -122,6 +147,19 @@
                     top: 180px;
                 }
             }
+        }
+    }
+}
+
+
+.banner-bottom {
+    &.sty1{
+        text-align: center;
+        padding: 50px 0 50px;
+        background-color: #F2F2F2;
+        p {
+            color: $iBlack;
+            margin-bottom: 40px;
         }
     }
 }

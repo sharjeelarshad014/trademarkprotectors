@@ -7,8 +7,8 @@
 	<title>Icons | <%=brandName%></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="shortcut icon" href="/trademarkprotectors/favicon.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="/trademarkprotectors/assets/css/style.min.css"/>
+    <link rel="shortcut icon" href="/staging/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="/staging/assets/css/style.min.css"/>
 </head>
 <body>
 

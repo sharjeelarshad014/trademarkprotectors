@@ -31,8 +31,8 @@ $(document).keyup(function (e) {
 
 function doOnReady() {
 	// OnReady Functions
+	onHoverFunction();
 	AOS.init();
-	smoothScrolling();
 	initHtmlReader();
 	initCarousel('.js-slide1', 1, 1, false, false, false, 1000);
 	initCarousel('.js-slide2', 5, 1, true, true, false, 1000);
@@ -645,24 +645,12 @@ function showMoreless(target, targetbtn, show, find, htxt, stxt){
 	});
 }
 
-function smoothScrolling() {
-	var scrollSpeed = 450; // Higher number for slower scroll
-    var scrollDuration = 650; // Duration for the scroll animation
 
-    // Mouse wheel smooth scroll
-    $(window).on("mousewheel DOMMouseScroll", function (event) {
-        // Prevent default scrolling
-        event.preventDefault();
-
-        // Determine the scrolling direction
-        var delta = event.originalEvent.wheelDelta || -event.originalEvent.detail;
-        var scrollTop = $(window).scrollTop();
-        var finalScroll = scrollTop - (delta * scrollSpeed / 120);
-
-        // Smooth scroll animation
-        $("html, body").stop().animate({
-            scrollTop: finalScroll
-        }, scrollDuration, "easeOutCubic"); // Easing function for smooth scroll
-    });
+function onHoverFunction() {
+	$('.js-hovereffect').hover(
+        function() {
+            $('.js-hovereffect').removeClass('is--active');
+            $(this).addClass('is--active');
+        }
+    );
 }
-	

@@ -324,6 +324,7 @@
         pointer-events: none;
         opacity: 0;
         visibility: hidden;
+        box-shadow: 0px 0px 22px -14px $black;
         transition: all .80s ease;
         >ul{
             display: flex;
@@ -332,6 +333,7 @@
                 flex: 0 0 50%;
                 max-width: 50%;
                 padding: 20px 20px 20px;
+                position: relative;
             }
         }
         @media (max-width: 991px) {
@@ -355,6 +357,7 @@
     }
     .link-wrap {
         display: flex;
+        position: relative;
         .link-ic {
             margin-right: 10px;
             i {
@@ -377,6 +380,32 @@
         }
     }
     &:hover{
+        background-image: $iGradient3;
+        border-radius: 50px;
+        &.hover-style1{
+            &:before{
+                opacity: 0.4;
+            }
+            &:after{
+                opacity: 0.2;
+            }
+        }
+        .menu-string{
+            &:before{
+                opacity: 1;
+            }
+            &:after{
+                top: calc(100% + 35px);
+                opacity: 1;
+            }
+        }
+        .dropdown-inner{
+            top: calc(100% + 40px);
+            opacity: 1;
+            visibility: visible;
+            pointer-events: visible;
+            display: block;
+        }
         >a{
             color: $iGray8 !important;
             >i{
@@ -389,31 +418,15 @@
     }
     &.hover-style1{
         position: relative;
-        &:before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-image: $iGradient3;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%) scaleX(1.05) scaleY(1.2);
-            z-index: -1;
-            border-radius: 30px;
-            opacity: 0;
-        }
-        &:after {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-image: $iGradient3;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%) scaleX(1.08) scaleY(1.4);
-            z-index: -1;
-            border-radius: 30px;
-            opacity: 0;
+        >a{
+            &:before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: calc(100% + 50px);
+                top: 0;
+                left: 0;
+            }
         }
         @media (max-width: 991px) {
             &:before{
@@ -456,15 +469,17 @@
         }
     }
 
-    &.is-open{
+    &.is-open,
+    &:hover{
         background-image: $iGradient3;
         border-radius: 50px;
         &.hover-style1{
-            &:before{
-                opacity: 0.4;
+            &:after {
+                @include rings(3s, 0s);
             }
-            &:after{
-                opacity: 0.2;
+            
+            &:before {
+                @include rings(3s, 0.5s);
             }
         }
         .menu-string{
@@ -502,8 +517,9 @@
     /* background: #000;  */
     top: 0;
     left: 0;
-    color: #fff;
-    font-size: 60px;
+    color: $white;
+    font-weight: 600;
+    @include fontCalcSize(60, 35);
     overflow: hidden;
     z-index: 9999;
 }
@@ -533,15 +549,27 @@
 .loader-back.animate {
     animation: slideOut 1s forwards;
 }
-.loader-back:nth-child(5).animate {
+.loader-back:nth-child(6).animate {
     animation-delay: 0s;
 }
-.loader-back:nth-child(6).animate {
+.loader-back:nth-child(7).animate {
     animation-delay: 0.25s;
 }
-.loader-back:nth-child(7).animate {
+.loader-back:nth-child(8).animate {
     animation-delay: 0.5s;
 }
-.loader-back:nth-child(8).animate {
+.loader-back:nth-child(9).animate {
     animation-delay: 0.75s;
+}
+
+@keyframes ripple {
+    from {
+      opacity: 1;
+      transform: scale3d(0.75,0.75,1);
+    }
+    
+    to {
+      opacity: 0;
+      transform: scale3d(1.5,1.5,1);
+    }
 }
