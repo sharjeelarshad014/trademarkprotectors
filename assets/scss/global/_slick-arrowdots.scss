@@ -90,8 +90,10 @@
             &.slick-next {
                 right: 16%;
                 left: auto;
-
+                background-color: $iPrimary;
+                
                 >i {
+                    color: $iGray8;
                     transform: rotate(180deg);
                 }
             }

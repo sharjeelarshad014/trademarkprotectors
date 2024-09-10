@@ -29,6 +29,12 @@
                 width: 52%;
                 border-top-right-radius: 120px;
                 border-bottom-right-radius: 120px;
+                @media (max-width: 1199px) {
+                    bottom: 170px;
+                    height: 240px;
+                    border-top-right-radius: 70px;
+                    border-bottom-right-radius: 70px;
+                }
             }
             &.sty3 {
                 bottom: 90px;
@@ -57,7 +63,7 @@
     }
     .banner-list{
         &.sty1{
-            padding-bottom: 40px;
+            padding-bottom: 20px;
             p{
                 color: $iGray8;
             }

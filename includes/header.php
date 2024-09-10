@@ -15,33 +15,22 @@
 		}
 	}
 </style>
-<div class="main-loader" id="loader">
-	<div class="loader-text">HELLO</div>
-	<div class="loader-text">BONJOUR</div>
-	<div class="loader-text">CIAO</div>
-	<div class="loader-text">KONNICHIWA</div>
-	<div class="loader-text">MARHABA</div>
-	<div class="loader-back"></div>
-	<div class="loader-back"></div>
-	<div class="loader-back"></div>
-	<div class="loader-back"></div>
-</div>
 <header class="header js-fixed">
 	<div class="container">
 		<div class="fflex align-items-center">
-			<a href="/staging/" class="logo">
-				<img src="/staging/assets/img/brand/logo.png" alt="" class="js-tosvg">
+			<a href="/trademarkprotectors/" class="logo">
+				<img src="/trademarkprotectors/assets/img/brand/logo.png" alt="" class="js-tosvg">
 			</a>
 			<div class="navigation">
-				<a href="/staging/" class="logo d-lg-none d-block">
-					<img src="/staging/assets/img/brand/logo.png" alt="" class="js-tosvg">
+				<a href="/trademarkprotectors/" class="logo d-lg-none d-block">
+					<img src="/trademarkprotectors/assets/img/brand/logo.png" alt="" class="js-tosvg">
 				</a>
 				<ul>
 					<li>
-						<a href="/staging/"><i class="ic-1"></i> Home</a>
+						<a href="/trademarkprotectors/"><i class="ic-1"></i> Home</a>
 					</li>
 					<li>
-						<a href="/staging/about-us/">About Us</a>
+						<a href="/trademarkprotectors/about-us/">About Us</a>
 					</li>
 					<li class="dropdown js-menuOpen hover-style1">
 						<div class="menu-string"></div>
@@ -50,7 +39,7 @@
 							<ul>
 								<li>
 									<div class="link-wrap">
-										<a href="/staging/trademark-registration/" class="post-link"></a>
+										<a href="/trademarkprotectors/trademark-registration/" class="post-link"></a>
 										<div class="link-ic">
 											<i class="ic-10"></i>
 										</div>
@@ -62,7 +51,7 @@
 								</li>
 								<li>
 									<div class="link-wrap">
-										<a href="/staging/trademark-registration/" class="post-link"></a>
+										<a href="/trademarkprotectors/trademark-registration/" class="post-link"></a>
 										<div class="link-ic">
 											<i class="ic-10"></i>
 										</div>
@@ -74,7 +63,7 @@
 								</li>
 								<li class="bgc-blue-light">
 									<div class="link-wrap">
-										<a href="/staging/trademark-registration/" class="post-link"></a>
+										<a href="/trademarkprotectors/trademark-registration/" class="post-link"></a>
 										<div class="link-ic">
 											<i class="ic-10"></i>
 										</div>
@@ -86,7 +75,7 @@
 								</li>
 								<li class="bgc-blue-light">
 									<div class="link-wrap">
-										<a href="/staging/trademark-registration/" class="post-link"></a>
+										<a href="/trademarkprotectors/trademark-registration/" class="post-link"></a>
 										<div class="link-ic">
 											<i class="ic-10"></i>
 										</div>
@@ -98,7 +87,7 @@
 								</li>
 								<li class="mb-0">
 									<div class="link-wrap">
-										<a href="/staging/trademark-registration/" class="post-link"></a>
+										<a href="/trademarkprotectors/trademark-registration/" class="post-link"></a>
 										<div class="link-ic">
 											<i class="ic-10"></i>
 										</div>
@@ -110,7 +99,7 @@
 								</li>
 								<li class="mb-0">
 									<div class="link-wrap">
-										<a href="/staging/trademark-registration/" class="post-link"></a>
+										<a href="/trademarkprotectors/trademark-registration/" class="post-link"></a>
 										<div class="link-ic">
 											<i class="ic-10"></i>
 										</div>
@@ -124,10 +113,10 @@
 						</div>
 					</li>
 					<li>
-						<a href="/staging/faqs/">FAQs</a>
+						<a href="/trademarkprotectors/faqs/">FAQs</a>
 					</li>
 					<li>
-						<a href="/staging/contact-us/">Contact Us</a>
+						<a href="/trademarkprotectors/contact-us/">Contact Us</a>
 					</li>
 				</ul>
 			</div>

@@ -4,8 +4,8 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="logo-widget">
-							<a href="/staging/">
-								<img src="/staging/assets/img/brand/logo-black.png" alt="">
+							<a href="/trademarkprotectors/">
+								<img src="/trademarkprotectors/assets/img/brand/logo-black.png" alt="">
 							</a>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 							<div class="contact-list sty1">
@@ -27,10 +27,10 @@
 						<div class="link-widget">
 							<h5 class="h5">Useful Links</h5>
 							<ul>
-								<li><a href="/staging/">Home</a></li>
-								<li><a href="/staging/about-us/">About Us</a></li>
-								<li><a href="/staging/faqs/">FAQ's</a></li>
-								<li><a href="/staging/contact-us/">Contact Us</a></li>
+								<li><a href="/trademarkprotectors/">Home</a></li>
+								<li><a href="/trademarkprotectors/about-us/">About Us</a></li>
+								<li><a href="/trademarkprotectors/faqs/">FAQ's</a></li>
+								<li><a href="/trademarkprotectors/contact-us/">Contact Us</a></li>
 							</ul>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 				<p>©2024  |   Trademark Protectors. All Rights Reserved</p>
 				<ul class="copyright-links">
 					<li><a href="javascript:;">Privacy Policy</a></li>
-					<li><a href="/staging/contact-us/">Contact Us</a></li>
+					<li><a href="/trademarkprotectors/contact-us/">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>

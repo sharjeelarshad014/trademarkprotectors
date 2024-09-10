@@ -3,21 +3,21 @@
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/brand-info.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/brand-info.php"); ?>
 	<title>Faq's | <?php echo "$brandName";?></title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/style.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/style.php"); ?>
 
 </head>
 <body>
 	<!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
-	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/header.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/header.php"); ?>
 
-	<section class="banner inner" style="background-image: url(/staging/assets/img/bg/about-banner.jpg);">
+	<section class="banner inner" style="background-image: url(/trademarkprotectors/assets/img/bg/about-banner.jpg);">
 		<div class="bg-style sty1"></div>
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
@@ -38,31 +38,7 @@
 					</div>
 				</div>
 				<div class="col-lg-5">
-					<div class="form-wrap">
-						<div class="form-head">
-							<h4 class="h4">Register Your <span class="cl-iPrimary">Trademark</span></h4>
-							<p>Leading provider of trademark protection</p>
-						</div>
-						<form action="">
-							<div class="form-body">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Enter Your Name">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Enter Your Email">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Enter Your Phone">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="What are your trying to Protect">
-								</div>
-								<div class="btn-wrap">
-									<button type="button" class="btn btn-form">GET YOUR TRADEMARK REGISTERED</button>
-								</div>
-							</div>
-						</form>
-					</div>
+					<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/form.php"); ?>
 				</div>
 			</div>
 		</div>
@@ -91,7 +67,7 @@
 						<a href="javascript:;" class="post-link"></a>
 						<div class="arrow-pointer"></div>
 						<div class="box-ic">
-							<i class="ic-7"></i>
+							<i class="ic-12"></i>
 						</div>
 						<div class="box-text">
 							<h5 class="h5">Expert Legal Guidance</h5>
@@ -104,7 +80,7 @@
 						<a href="javascript:;" class="post-link"></a>
 						<div class="arrow-pointer"></div>
 						<div class="box-ic">
-							<i class="ic-7"></i>
+							<i class="ic-13"></i>
 						</div>
 						<div class="box-text">
 							<h5 class="h5">10+ Years of Experience</h5>
@@ -117,7 +93,7 @@
 						<a href="javascript:;" class="post-link"></a>
 						<div class="arrow-pointer"></div>
 						<div class="box-ic">
-							<i class="ic-7"></i>
+							<i class="ic-14"></i>
 						</div>
 						<div class="box-text">
 							<h5 class="h5">Expertise in Legal Laws</h5>
@@ -130,7 +106,7 @@
 						<a href="javascript:;" class="post-link"></a>
 						<div class="arrow-pointer"></div>
 						<div class="box-ic">
-							<i class="ic-7"></i>
+							<i class="ic-15"></i>
 						</div>
 						<div class="box-text">
 							<h5 class="h5">We Flaunt High Approval Rate</h5>
@@ -227,7 +203,7 @@
 		</div>
 	</section>
 
-	<section class="stripe cta-sec" style="background-image: url(/staging/assets/img/bg/bg-img2.jpg);">
+	<section class="stripe cta-sec" style="background-image: url(/trademarkprotectors/assets/img/bg/bg-img2.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -256,7 +232,7 @@
 		</div>
 	</section>
 
-	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/footer.php"); ?>
-	<?php include($_SERVER['DOCUMENT_ROOT']."/staging/includes/scripts.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/footer.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/trademarkprotectors/includes/scripts.php"); ?>
 </body>
 </html>
